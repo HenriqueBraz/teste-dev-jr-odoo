@@ -23,4 +23,6 @@ A avaliação consiste em instalar o Framework Odoo e desenvolver o módulo  **R
 - Use Python >= 3.7
 - Siga a PEP-8.
 - [Escreva mensagens claras no Git](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices).
-- Launch servidor:  python3 odoo-bin --addons-path=addons -d USER
+- registry new app_folder (custom): ./odoo-bin --addons-path=../custom,addons 
+- launch server:  python3 odoo-bin --addons-path=addons -d USER
+- restart server: ./odoo-bin --addons-path=../custom,addons -d USER -u estate

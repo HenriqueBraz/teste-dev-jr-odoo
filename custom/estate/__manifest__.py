@@ -2,9 +2,9 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'REAL STATE',
+    'name': 'REAL ESTATE',
     'depends': [
-        'base',
+        'base'
     ],
-    'application': True,
+    'application': True
 }
